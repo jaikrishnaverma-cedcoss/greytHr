@@ -1,0 +1,48 @@
+.dropbtn {
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+    padding: 25px;
+  }
+  
+  .dropdown-content p:hover {
+    color: #00a1f2;
+    /* font-size: 1.2rem; */
+    padding-left: 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #3e8e41;}
+  .hr{
+    background:url('../../public/downloadbg.svg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .dropdown-content a{
+text-decoration: none;
+min-width: 200px;
+  }
+  .sublink{
+    
+    margin: 5px 0px;
+    margin-left: 55px;
+    font-size: .9rem;
+  }
