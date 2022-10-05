@@ -229,3 +229,27 @@ nav *{
   font-size: 30px;
   color: white;
 }
+.borderbox{
+ box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px, rgb(209 213 219) 0px 0px 0px 1px inset;
+}
+.phide{
+display: none;
+}
+.pfalse{
+font-size: 12px;
+}
+.p5{
+  padding: 5%;
+}
+.sbtn{
+  background-color: grey;
+  border-radius: 3px;
+  color: white;
+}
+.sbtn:hover{
+  background-color: #1e97fa;
+}
+#rc-anchor-alert, .rc-anchor-alert {
+  display: none !important ;
+  color: green !important;
+}

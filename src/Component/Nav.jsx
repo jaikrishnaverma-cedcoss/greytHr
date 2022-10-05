@@ -13,7 +13,7 @@ const Nav = () => {
               <div className="dropdown">
 
                 <p className='dropbtn'>Product <i class="fa fa-angle-down" aria-hidden="true"></i></p>
-                <div class="dropdown-content p2 " style={{ borderRadius: "5px",minWidth:"312px"}}>
+                <div class="dropdown-content p2 " style={{ borderRadius: "5px",minWidth:"265px"}}>
                 <Link to="/hrSoftware"><p style={{ margin: "10%" }}>HR Software</p></Link>
                 <Link to="/payroll-software"> <p style={{ margin: "10%" }}>Payroll Software</p></Link>
                 <Link to="/leave-management-software">  <p style={{ margin: "10%" }}>Leave Management</p></Link>
@@ -23,9 +23,9 @@ const Nav = () => {
                 </div>
               </div>
            
-                <p className='dropbtn'>Customers</p>
+              <Link to="/customer" style={{textDecoration:"none "}}> <p className='dropbtn' >Customers</p></Link>
 
-                <p className='dropbtn'>Pricing</p>
+             <Link to="/pricing" style={{textDecoration:"none "}}><p className='dropbtn'>Pricing</p> </Link>
 
               <div className="dropdown">
                 <p className='dropbtn'>Resources <i class="fa fa-angle-down" aria-hidden="true"></i></p>
@@ -59,8 +59,8 @@ const Nav = () => {
           </div>
 
           <div className="row flexAIC w50 flexEnd">
-            <button className="dbtn">GET STARTED FOR FREE</button>
-            <button className="border-btn">Log In</button>
+           <Link to="signup"  style={{textDecoration:"none "}}><button className="dbtn">GET STARTED FOR FREE</button></Link> 
+           <Link to="login"  style={{textDecoration:"none "}}><button className="border-btn">Log In</button></Link> 
           </div>
         </div>
       </nav>
